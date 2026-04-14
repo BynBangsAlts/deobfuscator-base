@@ -19,6 +19,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Label("GPT was involved to make VM better but it made it worse pls someone fix ts")
 public class VirtualMachine {
   private final MemoryClassLoader classLoader;
   private final Map<String, byte[]> classes;
